@@ -48,3 +48,7 @@ The goal of this project is to design a website that provides a deeper insight i
 - Contact Me Page:
 <img width="1787" alt="Screen Shot 2023-09-19 at 8 17 36 PM" src="https://github.com/srijagadiraju/my-website-portfolio/assets/129122908/9b58ff50-9f61-46f2-8de7-4c61bb96d0c4">
 <img width="1787" alt="Screen Shot 2023-09-19 at 8 17 57 PM" src="https://github.com/srijagadiraju/my-website-portfolio/assets/129122908/af1d8d20-ec35-4f15-8587-f017b3ce9486">
+
+## Links To Resources Used To Build This Website:
+- https://www.youtube.com/watch?v=oYRda7UtuhA&ab_channel=GreatStack
+- https://www.youtube.com/watch?v=sGQSz22U8VM&ab_channel=GreatStack
