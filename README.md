@@ -19,7 +19,7 @@ The goal of this project is to design a website that provides a deeper insight i
 - clone this repository (my-website-portfolio)
 - open up the folder in VSCode or your preferred IDE
 - run npm install to download the necessary files to run the website properly
-- run the index.html (home page) using your specific live server/host
+- open index.html (home page) using your specific live server/host
 
 ## Tech Used:
 - HTML
