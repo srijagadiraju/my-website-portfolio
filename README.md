@@ -4,7 +4,7 @@
 ## Website Portfolio Information/Links:
 [Website Home Page] (https://srijagadiraju.github.io/my-website-portfolio/) 
 
-[Website Walkthrough Video] (https://youtu.be/X8mVV-ytBsY)
+[Website Walkthrough Video]([url](https://youtu.be/X8mVV-ytBsY))
 
 [Website Portfolio Slides] (https://docs.google.com/presentation/d/11YF27GLJzX1ERkyy2iQo3LR7JrlJRNgNUCfmcyXxoUg/edit#slide=id.g112ac09d80b_0_634)
 
@@ -32,7 +32,6 @@ The goal of this project is to design a website that provides a deeper insight i
 - Projects (projects.html): has the nav bar at the top and a scenic photo with the title My CS Projects on it. when scrolling down, has a column titled Medical Diagnosis Tool with information on that project below it and a button that links to the GitHub page for more info on the project. the right column has a photo of future directions for that project. footer at the bottom.
 - Hobbies (hobbies.html): has the nav bar at the top and a scenic photo with the title Hobbies/Interests on it. when scrolling down, has a header saying My Hobbies! with a sentence under stating my motto when trying out new activities. has the same photos/titles as the section on the home page, but has lists under each photo describing when I started them, what I like about them, etc. footer at the bottom.
 - Contact Me! (contact.html): has the nav bar at the top and a scenic photo with the title Contact Me on it. when scrolling down, has an interactive Google Map with Northeastern's campus pinned on it. when scrolling down, the left column has the campus' address, my email, instagram, and twitter. on the left, there is a direct way to message me with a name bar, email bar, subject bar, message bar, and a Send Message! button at the bottom. footer at the bottom.
-![Uploading Screen Shot 2023-09-20 at 8.59.30 AM.png…]()
 
 ## Website Screenshots:
 - Home Page:
