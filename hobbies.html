@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Srija Gadiraju" />
+    <meta name="description" content="Srija Gadiraju's Website" />
+    <meta name="icon" content="Srija Gadiraju's Photo" />
+    <title>Srija Gadiraju's Website</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    />
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/email.js"></script>
+  </head>
+  <body>
+    <!--Info for Main Page-->
+    <section class="sub-header">
+      <nav>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">MORE ABOUT ME</a></li>
+            <li><a href="projects.html">PROJECTS</a></li>
+            <li><a href="hobbies.html">HOBBIES</a></li>
+            <li><a href="contact.html">CONTACT ME!</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>HOBBIES/INTERESTS</h1>
+    </section>
+
+    <!-- Section for Hobbies -->
+    <section class="hobbies">
+      <h1>My Hobbies!</h1>
+      <p>
+        I firmly believe in the value of embracing new activities and
+        experiences, and I think it's important <br />
+        to try something at least twice to truly determine if it fits with one's
+        interests.
+      </p>
+      <div class="row">
+        <div class="hobbies-col">
+          <img
+            src="images/vball.png"
+            alt="Photo Of Me From High School Volleyball"
+          />
+          <div class="layer">
+            <h3>Playing Volleyball</h3>
+          </div>
+          <!-- Add descriptions for Playing Volleyball -->
+          <div class="hobby-description">
+            <ul>
+              <li>
+                - Started playing volleyball in the third grade and continued
+                playing every year through college
+              </li>
+              <li>
+                - Team captain for school and club volleyball in high school
+              </li>
+              <li>
+                - Co-founded and served as the president of the Volleyball Club
+                in college
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="hobbies-col">
+          <img
+            src="images/hike.png"
+            alt="Photo Of Me Hiking in San Francisco"
+          />
+          <div class="layer">
+            <h3>Hiking</h3>
+          </div>
+          <!-- Add descriptions for Hiking -->
+          <div class="hobby-description">
+            <ul>
+              <li>
+                - Love exploring new trails, especially near waterfalls or
+                bodies of water
+              </li>
+              <li>
+                - Explored numerous local trails with friends and family during
+                quarantine to fill our time
+              </li>
+              <li>- Always looking for trail recommendations!</li>
+            </ul>
+          </div>
+        </div>
+        <div class="hobbies-col">
+          <img src="images/puppy.png" alt="Photo Of Toby, my dog" />
+          <div class="layer">
+            <h3>Hanging Out With Toby</h3>
+          </div>
+          <!-- Add descriptions for Hanging Out With Toby -->
+          <div class="hobby-description">
+            <ul>
+              <li>- Got him in September 2020 (quarantine puppy)</li>
+              <li>- My new hiking buddy</li>
+              <li>- Loves to cuddle, play outside, and EAT!</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <section class="footer">
+      <h4>Made With ❤️ By Srija</h4>
+    </section>
+
+    <!--JavaScript for Toggle Menu-->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

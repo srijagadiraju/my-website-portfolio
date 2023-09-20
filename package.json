@@ -1,0 +1,21 @@
+{
+  "name": "my-website-final",
+  "version": "1.0.0",
+  "description": "my personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "my-website-portfolio"
+  },
+  "keywords": [
+    "website"
+  ],
+  "author": "Srija Gadiraju",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.49.0"
+  }
+}

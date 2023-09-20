@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Srija Gadiraju" />
+    <meta name="description" content="Srija Gadiraju's Website" />
+    <meta name="icon" content="Srija Gadiraju's Photo" />
+    <title>Srija Gadiraju's Website</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    />
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/email.js"></script>
+  </head>
+  <body>
+    <!--Info for Main Page-->
+    <section class="sub-header">
+      <nav>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">MORE ABOUT ME</a></li>
+            <li><a href="projects.html">PROJECTS</a></li>
+            <li><a href="hobbies.html">HOBBIES</a></li>
+            <li><a href="contact.html">CONTACT ME!</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>About Me</h1>
+    </section>
+
+    <!--About Me Content-->
+    <section class="about-me">
+      <div class="row">
+        <div class="about-col">
+          <h2>My Background</h2>
+          <p>
+            As you may notice from my undergraduate degree, I am new to the
+            field of computer science and had no coding knowledge or experience
+            before starting grad school. However, I have extensive research,
+            clinical, leadership, and volunteering experiences that have shaped
+            me into a tenacious learner and inquisitive thinker, who always
+            seeks to unravel the question, "why?"
+          </p>
+          <a
+            href="documents/SG-AdditionalExperiences.pdf"
+            target="_blank"
+            class="hero-btn pink-btn"
+            >CLICK HERE TO VIEW MY OTHER EXPERIENCES</a
+          >
+        </div>
+        <div class="about-col">
+          <img src="images/grad.png" alt="Picture of Me at College Grad" />
+        </div>
+      </div>
+    </section>
+
+    <!--Section for About Me-->
+    <section class="AboutMe">
+      <h2>Who Am I?</h2>
+      <p>
+        Although I have shifted away from pursuing a career as a medical doctor,
+        I view each of my past experiences as invaluable building blocks. Every
+        class, job, and encounter within the healthcare field has played an
+        instrumental role in shaping the person I've become today. As I embark
+        on my journey in computer science, I am eager to combine these
+        experiences to have a broader skillset. My overarching aspiration is to
+        contribute to the field of healthcare technology, with a strong focus on
+        enhancing accessibility and medical literacy, particularly within rural
+        and underserved communities.
+      </p>
+      <div class="row">
+        <div class="page-col">
+          <h3>Undergraduate (Aug 2019-Dec 2022)</h3>
+          <p>
+            California Northstate University, College of Health Sciences <br />
+            Bachelor of Science in Health Sciences <br />
+          </p>
+        </div>
+        <div class="page-col">
+          <h3>Graduate (Jan 2023-Present)</h3>
+          <p>
+            Northeastern University, Khoury College of Computer Sciences <br />
+            Master of Science in Computer Science
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--Section for Mission Statement-->
+    <section class="goals">
+      <h2>Mission Statement</h2>
+      <p>
+        Originally on a rigorous pre-med track, I realized that while I would
+        enjoy practicing medicine, I was always ambivalent about my future
+        goals. After working as a scribe in the Emergency Department, I directly
+        witnessed both the positive and negative impacts of technology: a
+        well-formed Emergency Medical Records (EMR) system can save a life, but
+        a poor working interface can take time away from direct patient care.
+        This solidified my desire to gain expertise in computer science and
+        integrate this knowledge with my background in healthcare to increase
+        accessibility through improved medical interfaces. What interests me the
+        most about computer science is the ability to build the backbone of
+        systems of the future that can bridge the gap in patient care and
+        improve access to quality diagnoses for millions around the world. For
+        healthcare to be universal, governments, tech agencies, and
+        organizations have to collaborate, coordinate, and understand people for
+        changes to occur at the patient level. This is my motivation for going
+        into computer science: to make sure each patient is receiving the most
+        effective and conducive care.
+      </p>
+    </section>
+
+    <!--Footer-->
+    <section class="footer">
+      <h4>Made With ❤️ By Srija</h4>
+    </section>
+    <!--JavaScript for Toggle Menu-->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

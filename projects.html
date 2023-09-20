@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Srija Gadiraju" />
+    <meta name="description" content="Srija Gadiraju's Website" />
+    <meta name="icon" content="Srija Gadiraju's Photo" />
+    <title>Srija Gadiraju's Website</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    />
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/email.js"></script>
+  </head>
+  <body>
+    <!--Info for Main Page-->
+    <section class="sub-header">
+      <nav>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">MORE ABOUT ME</a></li>
+            <li><a href="projects.html">PROJECTS</a></li>
+            <li><a href="hobbies.html">HOBBIES</a></li>
+            <li><a href="contact.html">CONTACT ME!</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>My CS Projects</h1>
+    </section>
+
+    <!--Projects Content-->
+    <section class="project">
+      <div class="row">
+        <div class="project-col">
+          <h2>Medical Diagnosis Tool</h2>
+          <p>
+            Purpose: create a system that allows patients to get basic diagnoses
+            at home to avoid problems with insurance, medical literacy, and/or
+            healthcare accessibility
+          </p>
+          <p>Language: Python</p>
+          <p>
+            While this project is a basic implementation of this tool to show
+            its functionality with different data structures, like dictionaries,
+            my goal is to continue working on this and possibly use techniques
+            learned in Machine Learning to have a more solid database of
+            diagnoses/symptoms as specific to the patient as possible.
+          </p>
+          <a
+            href="https://github.com/srijagadiraju/Final-Project/tree/main"
+            target="_blank"
+            class="hero-btn pink-btn"
+            >PROJECT'S GITHUB</a
+          >
+        </div>
+        <div class="about-col">
+          <img
+            src="images/future.png"
+            alt="Screenshot of Future Directions for This Project"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <section class="footer">
+      <h4>Made With ❤️ By Srija</h4>
+    </section>
+
+    <!--JavaScript for Toggle Menu-->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
