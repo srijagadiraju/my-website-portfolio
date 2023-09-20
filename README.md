@@ -4,7 +4,7 @@
 ## Website Portfolio Information:
 Website Home Page: https://srijagadiraju.github.io/my-website-portfolio/ 
 
-Website Walkthrough Video: 
+Website Walkthrough Video: https://youtu.be/X8mVV-ytBsY
 
 Link to Slides: https://docs.google.com/presentation/d/11YF27GLJzX1ERkyy2iQo3LR7JrlJRNgNUCfmcyXxoUg/edit#slide=id.g112ac09d80b_0_634
 
