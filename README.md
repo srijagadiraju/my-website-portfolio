@@ -1,16 +1,16 @@
 # My Website's Portfolio
 ## Author: Srija Gadiraju
 
-## Portfolio Information/Links:
-### Website Home Page: https://srijagadiraju.github.io/my-website-portfolio/ 
+## Website Portfolio Information:
+Website Home Page: https://srijagadiraju.github.io/my-website-portfolio/ 
 
-### Website Walkthrough Video: 
+Website Walkthrough Video: 
 
-### Link to Slides: https://docs.google.com/presentation/d/11YF27GLJzX1ERkyy2iQo3LR7JrlJRNgNUCfmcyXxoUg/edit#slide=id.g112ac09d80b_0_634
+Link to Slides: https://docs.google.com/presentation/d/11YF27GLJzX1ERkyy2iQo3LR7JrlJRNgNUCfmcyXxoUg/edit#slide=id.g112ac09d80b_0_634
 
-### Design Document: https://docs.google.com/document/d/1st0n5UlAGMKsuPpUJU5bCD3jMQDQ-RXCoTRFeu0LHdc/edit?usp=sharing
+Design Document: https://docs.google.com/document/d/1st0n5UlAGMKsuPpUJU5bCD3jMQDQ-RXCoTRFeu0LHdc/edit?usp=sharing
 
-### Class Link: https://johnguerra.co/classes/webDevelopment_fall_2023/
+Class Link: https://johnguerra.co/classes/webDevelopment_fall_2023/
 
 ## Objective: 
 The goal of this project is to design a website that provides a deeper insight into our personal and professional lives. By adding information about our education backgrounds, previous projects, work experiences, etc., others with access to the website will be able to know more about us and our skills. This project is for CS5610 Web Development at Northeastern University and is to be built using HTML, CSS, and JavaScript, while also utilizing embedded tools like Prettier and eslint. It should also be formatted correctly and be W3C Compliant to ensure there are no errors in our code. 
