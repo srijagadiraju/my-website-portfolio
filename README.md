@@ -35,7 +35,7 @@ The goal of this project is to design a website that provides a deeper insight i
 
 ## Website Screenshots:
 - Home Page:
-<img width="1788" alt="Screen Shot 2023-09-19 at 8 14 37 PM" src="https://github.com/srijagadiraju/my-website-portfolio/assets/129122908/0a788ed5-5f6c-48a0-ac01-3cfaee204456">
+<img width="160" alt="Screen Shot 2023-09-23 at 10 17 57 AM" src="https://github.com/srijagadiraju/my-website-portfolio/assets/129122908/22f26657-dc4a-4c25-bebb-3b03ffa72147">
 <img width="1790" alt="Screen Shot 2023-09-19 at 8 15 01 PM" src="https://github.com/srijagadiraju/my-website-portfolio/assets/129122908/bf97f888-705b-4c79-885c-b09adcb91c7c">
 - More About Me Page:
 <img width="1789" alt="Screen Shot 2023-09-19 at 8 15 28 PM" src="https://github.com/srijagadiraju/my-website-portfolio/assets/129122908/cb9028b2-fbd7-40d0-b43f-57eba4222289">
